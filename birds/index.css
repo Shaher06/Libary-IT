@@ -1,0 +1,217 @@
+body {
+  background-color: #f0f8ff;
+  color: #333;
+  line-height: 1.6;
+  text-align: center; /* النص في المنتصف */
+}
+
+header {
+  background: linear-gradient(135deg, #5253a7, #7e54b8);
+  color: white;
+  border-radius: 50px ;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.logo span {
+  color: #ffd700;
+}
+
+.tagline {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+nav {
+  border-radius: 40px;
+  background-color:#322259;
+  padding: 0.5rem 0;
+  width: 70%;
+margin-left: 15%
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+nav ul li a:hover {
+  background-color: #804ebd;
+  color: #0066cc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: center; /* النص في المنتصف */
+}
+
+.hero {
+  background: url("./Imags/final.jpg");
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.hero-content {
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: ffffff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ffd700;
+  color: #0066cc;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0066cc;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #ffd700;
+  margin: 0.5rem auto;
+}
+
+.birds-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* ثلاث أعمدة */
+  gap: 2rem;
+  align-items: center;
+  justify-items: center; /* الصور في المنتصف */
+}
+
+.bird-card {
+  background-color: white;
+  margin-top: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center; /* النص داخل الحاوية في المنتصف */
+}
+
+.bird-image {
+  height: 200px;
+  overflow: hidden;
+  margin-top: 20px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* الصورة في المنتصف */
+}
+
+.bird-image img {
+  width: 100%; /* تخلي الصورة في المنتصف */
+  height: auto;
+  margin-top: 0;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.bird-card:hover .bird-image img {
+  transform: scale(1.1);
+}
+
+.bird-info {
+  padding: 1.5rem
+}
+
+.bird-info h3 {
+  color: #0066cc;
+  margin-bottom: 0.5rem;
+}
+footer {
+  background-color: #00bcd4;
+  color: rgb(3, 3, 3);
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 2px;
+  margin: top 10px; 
+  .footer p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.signature {
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.fish-icon {
+    font-size: 24px;
+    margin: 0 5px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.social-links a:hover {
+    color: #ffeb3b;
+};
+}
