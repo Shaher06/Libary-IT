@@ -2,125 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Mammals world</title>
-    <link rel="stylesheet" href="./index.css">
+    <title>squids</title>
+    <link rel="stylesheet" href="./squids.css">
 </head>
 <body>
     <header>
-        <div class="logo">Mammal<span>World</span></div>
-        <div class="tagline">from tiny mice to giant whales</div>
+        <h1>Discover The Amazing World Of Squids!</h1>
+       <button>Home</button>
+       <button><a href="./index.html">back</a></button>
     </header>
-    
-    <nav>
+    <section id="class"><!-- التصنيق -->
+        <h2>Classification</h2>
+        <h2>Squid Classification</h2>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Species</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
+          <li><strong>Kingdom:</strong> Animals</li>
+          <li><strong>Phylum:</strong> Mollusks</li>
+          <li><strong>Class:</strong> Cephalopods</li>
+          <li><strong>Order:</strong> Squids (Teuthida)</li>
         </ul>
-    </nav>
+    </section>
     
-    <main class="container">
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Swip, Scrole, and meet mammals from every corner of the earth!</h1>
-                <p>from prowling predators to diving giants, on lnad and in the sea mammals are everywhere</p>
-                <a href="#" class="btn">Start Exploring</a>
-            </div>
-        </section>
+    <section id="anatomy"><!-- التشريح أو اجزاء الجسم -->
+        <h2>anatomy</h2>
+      
+           
+            <ul>
+              <li><strong>Head:</strong> Two big eyes and a sharp beak.</li>
+              <li><strong>Arms & Tentacles:</strong> 8 arms + 2 long tentacles with suckers.</li>
+              <li><strong>Mantle:</strong> Soft body that holds the organs and gills.</li>
+              <li><strong>Hearts:</strong> 3 hearts! Two for the gills and one for the body.</li>
+              <li><strong>Ink Sac:</strong> Shoots black ink to escape danger.</li>
+              <li><strong>Fins:</strong> Helps the squid swim slowly.</li>
+              <li><strong>Jet Propulsion:</strong> Moves by shooting water like a rocket!</li>
+            </ul>
         
-        <section>
-            <h2 class="section-title">Featured Mammals</h2>
-            <div class="mammal-grid">
-                <div class="mammal-card">
-                    <div class="mammal-card">
-                        <img src="D:\Malak\My First Project\birds\Imags\Bat.jog.jpg">
-                    </div>
-                    <div class="mammal-card">
-                        <h3>Bat</h3>
-                        <div class="scientific-name">Ara macao</div>
-                        <p> They have diverse facial structures adapted to their diet, including specialized noses for echolocation in some species.
-                            .</p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="mammal-card">
-                    <div class="mammal-image">
-                        <img src="D:\Malak\My First Project\birds\Imags\Eagle 2.jpg">
-                    </div>
-                    <div class="mammal-info">
-                        <h3>Eagle</h3>
-                        <div class="scientific-name">Haliaeetus leucocephalus</div>
-                        <p>An eagle is a powerful bird of prey, known for its strength, sharp vision, and impressive hunting skills.</p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="mammal-card">
-                    <div class="mammal-image">
-                        <img src="./Imags/Owl25.jpg" alt="Owl">
-                    </div>
-                    <div class="mammal-card">
-                        <h3>Owl</h3>
-                        <div class="scientific-name">Pavo cristatus</div>
-                        <p>An owl is a nocturnal bird known for its ability to see in the dark and its distinctive "hoo" sound. Ability to rotate head up to 270 degrees.</p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="mammal-card">
-                    <div class="mammal-card">
-                        <img src="D:\Malak\My First Project\birds\Imags\falcon 2.jpg" alt="Flacon">
-                    </div>
-                    <div class="mammal-card">
-                        <h3>Flacon</h3>
-                        <div class="scientific-name">Passer domesticus</div>
-                        <p>A falcon is a fast, powerful bird of prey, known for its speed and hunting skills.</p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="mammal-card">
-                    <div class="mammal-card">
-                        <img src="D:\Malak\My First Project\birds\Imags\Dove25.jpg"alt="Bird">
-                    </div>
-                    <div class="mammal-card">
-                        <h3>Dove</h3>
-                        <div class="scientific-name">Phoenicopterus roseus</div>
-                        <p>A bird is a small, flying creature with feathers, known for its ability to sing and chirp.</p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="mammal-card">
-                    <div class="mammal-card">
-                        <img src="D:\Malak\My First Project\birds\Imags\parrot3.jpg"alt="Parrot">
-                    </div>
-                    <div class="mammal-card">
-                        <h3>Parrot</h3>
-                        <div class="scientific-name">Cyanocitta cristata</div>
-                        <p> A parrot is a colorful, intelligent bird that can mimic human speech and sounds.</p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <p> @ Birds for kids Created By Malak </p>
-            <div class="footer">
-                <h2> Thank you for discovering Birds World<span class="fish-icon">🐠</span></h2>
-                <p> Thanks for flying with us — see you on the next adventure!” </p>        
-                <div class="social-links" style="text-align: center;">
-                    <a href="#"><i class="fab fa-facebook"   ></i> Facebook</a>
-                    <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
-                    <a href="#"><i class="fab fa-instagram"></i> instagram</a>
-                </div>
-                <div class="signature" style="text-align: right;">
-                    
-                </div>
+    </section>
+     
+    <section id="dietary Behavior"> <!-- السلوك الغذائي -->
+        <h2>dietary Behavior</h2>
         
-            </div>
-    </main>
+        <p>Squids are fast hunters! They
+         use their long tentacles to catch food like:</p>
+        <ul>
+          <li>Small fish</li>
+          <li>Shrimp</li>
+          <li>Tiny sea animals</li>
+        </ul>
+        <p>They grab their prey quickly and eat it with their sharp beak!</p>
+        </section>
+       
+    <section id="life span"> <!-- مدة الحياة -->
+        <h2>life span</h2>
+        <h2>How Long Do Squids Live?</h2>
+  <p>Most squids live for only 1 to 3 years.</p>
+  <p>After they lay eggs, their life ends and new baby squids are born!</p>
+    </section>
+
+    <section id="Toxicity"> <!--هل بتسمم ولا لاء-->
+        <h2>Toxicity</h2>
+        <p>Most squids are not dangerous to humans.</p>
+        <p>Some squids have a mild poison to catch small prey, but it doesn't harm people.</p>
+        <p>Warning! The blue-ringed octopus looks like a squid and has strong poison!</p>
+    </section>
+    <section id="natural habitat"> <!--وطنها الطبيعي-->
+        <h2>natural habitat</h2>
+        <p>Squids live in oceans all around the world!</p>
+        <ul>
+          <li>Mediterranean Sea</li>
+          <li>Atlantic Ocean</li>
+          <li>Pacific Ocean</li>
+          <li>Near coasts or deep underwater</li>
+        </ul>
+        <p>They like salty water and can live in warm or cool places.</p>
+    </section>
+    <footer>
+        <p>© 2025 Mollusks for Kids. Created by Shahir.</p>
+    </footer>
+
 </body>
 </html>
