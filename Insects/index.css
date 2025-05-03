@@ -1,13 +1,17 @@
 body {
-  background-color: #62dc56;
-  color: #333;
+  background-image:image-set(url(img/background.jpg)
+  );
+  color: #000000;
   line-height: 1.6;
   text-align: center;
   margin: 0;
 }
+.Insects body {
+
+}
 
 header {
-  background: linear-gradient(135deg, #15bf20, #15bf20);
+  background: linear-gradient(135deg, #50cf58dc, #50cf58dc);
   color: white;
   border-radius: 0px 0px 40px 40px;
   padding: 1rem 0;
@@ -32,7 +36,7 @@ header {
 
 nav {
   border-radius: 0px 0px 40px 40px;
-  background-color: #2ed756;
+  background-color: #50cf58bf;
   padding: 0.5rem 0;
   width: 70%;
   margin-left: 15%;
@@ -90,7 +94,7 @@ nav ul li a:hover {
   font-size: 3rem;
   font-style: italic;
   margin-bottom: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
   color: ffffff;
 }
 
@@ -184,8 +188,8 @@ nav ul li a:hover {
 }
 
 footer {
-  background-color: #00d447;
-  color: rgb(3, 3, 3);
+  background-color: #27ed5fca;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 10px;
   margin-bottom: 2px;
