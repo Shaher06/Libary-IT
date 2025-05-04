@@ -1,0 +1,224 @@
+body {
+  background-image:image-set(url(img/background.jpg)
+  );
+  color: #000000;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0;
+}
+header {
+  background: linear-gradient(135deg, #50cf58dc, #50cf58dc);
+  color: white;
+  border-radius: 0px 0px 40px 40px;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.logo span {
+  color: #000000;
+}
+
+.tagline {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+nav {
+  border-radius: 0px 0px 40px 40px;
+  background-color: #50cf58bf;
+  padding: 0.5rem 0;
+  width: 70%;
+  margin-left: 15%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+nav ul li a:hover {
+  background-color: #804ebd;
+  color: #0066cc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.hero {
+  background: url("./img/into.jpg");
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+  color: ffffff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #00ffffa6;
+  color: #000000;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0066cc;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #ffd700;
+  margin: 0.5rem auto;
+}
+
+.Insects-grid {
+  display: flex; /* Use Flexbox! */
+  flex-direction: row; /* Arrange horizontally */
+  justify-content: space-around; /* Distribute space */
+  align-items: stretch; /* Stretch cards to equal height */
+  gap: 1rem; /* Spacing between cards */
+  margin-top: 0;
+  flex-wrap: wrap; /* Allow wrapping to multiple rows */
+}
+
+.Insects-card {
+  background-color: rgba(237, 232, 232, 0.762);
+  margin-top: 0px;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  text-align: center;
+  flex: 1 0 auto; /* Flexbox sizing */
+}
+
+.Insects-image {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  margin-top: 0px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Insects-image img {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  border-radius: 20px;
+}
+
+.Insects-card:hover .Insects-image img {
+  transform: scale(1.1);
+}
+
+.Insects-info {
+  padding: 0.5rem;
+}
+
+.Insects-info h3 {
+  color: #36e307;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: #27ed5fca;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 2px;
+  margin-top: 10px;
+  border-radius: 0px 0px 40px 40px;
+}
+
+.footer {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+.signature {
+  font-style: italic;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.fish-icon {
+  font-size: 24px;
+  margin: 0 5px;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s;
+}

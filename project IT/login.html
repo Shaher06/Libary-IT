@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ANIMALBASE - Login & Register</title>
+  <style>
+   .logo {
+position: absolute;
+top: 5px;
+left: 10px;
+width: 200px;
+   }
+   
+   body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-image:linear-gradient(rgba(207, 8, 8, 0.5),rgba(0,0,0,0.5)), url("./imags/log\ in.jpg");
+      background-size: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background-color: rgba(255,255,255,0.2);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #092338;
+      margin-bottom: 15px;
+    }
+
+    form {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    #login:target form.login,
+    #register:target form.register {
+      display: flex;
+    }
+
+    input {
+      padding: 10px;
+      border-radius: 10px;
+      border: 2px solid #14130f;
+    }
+
+    button {
+      padding: 10px;
+      background: #00d6004b;
+      color: #ffffff;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    a {
+      color: #d32727;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .toggle {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+<img class="logo"  src="./imags/logo.png" >
+  <div class="container" id="login">
+    <h2>Login</h2>
+    <form class="login">
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      
+      <button type="submit">Login</button>
+    </form>
+    <div class="toggle">
+      <p>Don't have an account? <a href="#register">Register</a></p>
+    </div>
+  </div>
+
+  <div class="container" id="register">
+    <h2>Register</h2>
+    <form class="register">
+      <input type="text" placeholder="Username" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <input type="number" placeholder="Age" min="7" required>
+      <button type="submit">Register</button>
+    </form>
+    <div class="toggle">
+      <p>Already have an account? <a href="#login">Login</a></p>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+/* تنسيق الهيكل كله */
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #fff7e6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  #introduction{
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  /* الهيدر */
+  .Mollusks-header{
+    background-color: #83a8ac;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 5px solid #00b4d8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 50px;
+    margin-top: 20px;
+    color: #1a2a6c;
+  }
+  
+  nav {
+    margin-top: 15px;
+  }
+  
+  nav button {
+    background-color: #ff9f00;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  nav button a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav button:hover {
+    background-color: #ff6f00;
+  }
+  
+  /* البانر */
+  .banner {
+    background: url('./backgrunds/R.jpeg') no-repeat center center;
+    background-size: cover;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    border-bottom: 5px solid #00b4d8;
+  }
+  
+  /* الأقسام */
+  section {
+    padding: 40px 20px;
+  }
+  
+  h2 {
+    color: #0077b6;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /*الصندوق اللي قيه كل نوع*/
+  .type-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .type-box {
+    background-color: #caf0f8;
+    padding: 20px;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  }
+  
+  .type-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .type-box img {
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .type-box button {
+    background-color: #ff9f00;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .type-box button a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .type-box button:hover {
+    background-color: #ff6f00;
+  }
+  #anatomy{
+    text-align: center;
+    font-size: larger;
+  }
+  #facts{
+    text-align: center;
+    font-size: larger;
+  }
+  #conclusion{
+    text-align: center;
+    font-size: larger;
+  }
+  /* الفوتر */
+  footer {
+    background-color: #2baa31;
+    text-align: center;
+    padding: 20px 10px;
+    border-top: 5px solid #17191a;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #fff;
+  }
