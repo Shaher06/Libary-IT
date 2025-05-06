@@ -63,7 +63,7 @@ body{
     text-align: center; /* النص في المنتصف */
   }
   .hero {
-    background: url("./download\ \(2\).jfif");
+    background: url("./backgrunds/download\ \(2\).jfif");
     height: 400px;
     display: flex;
     align-items: center;
