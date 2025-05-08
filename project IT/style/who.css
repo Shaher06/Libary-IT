@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(to bottom, #000000, #ffffff); /* Gradient from black to white */
+    color: #f0f0f0; 
+    margin: 20px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+button{
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background-color: rgb(74, 2, 2);
+    border: solid blueviolet 1.2px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #f0f0f0; 
+}
+
+p {
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 1.6;
+    color: #f0f0f0; /* Lighter color for better contrast */
+}
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin: 30px auto;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.1); /* Transparent background for the table */
+    backdrop-filter: blur(15px); /* Blur effect for the table */
+    -webkit-backdrop-filter: blur(15px); /* Safari support for blur */
+    border-radius: 10px;
+}
+
+th, td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: center;
+    color: #333; /* Darker text color for better readability */
+}
+
+th {
+    background-color: rgba(44, 62, 80, 0.8); /* Dark background for headers */
+    color: #ecf0f1; /* Header text color */
+}
+
+tr:nth-child(even) {
+    background-color: rgba(242, 242, 242, 0.4); /* Transparent background for even rows */
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.4); /* Transparent background for odd rows */
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: linear-gradient(to bottom, #000000, #ffffff); /* Gradient from black to white */
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #f0f0f0; /* Lighter text color for better contrast */
+}

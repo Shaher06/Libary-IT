@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ANIMALBASE - Login & Register</title>
+  <link rel="stylesheet" href="./style/login.css">
+</head>
+<body>
+<img class="logo"  src="./imags/logo.png"> 
+  <div class="container" id="login">
+    <h2>Login</h2>
+    <form class="login">
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      
+      <button type="submit" > <a href="./home.html">Login</a></button>
+    </form>
+    <div class="toggle">
+      <p>Don't have an account? <a href="#register">Register</a></p>
+    </div>
+  </div>
+
+  <div class="container" id="register">
+    <h2>Register</h2>
+    <form class="register">
+      <input type="text" placeholder="Username" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <input type="number" placeholder="Age" min="7" required>
+      <button type="submit"><a href="./home.html">Register</a></button>
+    </form>
+    <div class="toggle">
+      <p>Already have an account? <a href="#login">Login</a></p>
+    </div>
+  </div>
+
+</body>
+</html>

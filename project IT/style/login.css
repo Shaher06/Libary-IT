@@ -1,0 +1,68 @@
+body{ 
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-image:linear-gradient(rgba(207, 8, 8, 0.5),rgba(0,0,0,0.5)), url("./backgrunds/log\ in.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .logo {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 200px;
+       }
+
+  .container {
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  h2 {
+    color: #092338;
+    margin-bottom: 15px;
+  }
+
+  form {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #login:target form.login,
+  #register:target form.register {
+    display: flex;
+  }
+
+  input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #14130f;
+  }
+
+  button {
+    padding: 10px;
+    background: #00d6004b;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  a {
+    color: #d32727;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .toggle {
+    margin-top: 10px;
+  }
