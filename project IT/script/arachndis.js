@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
           card.appendChild(messageElement); 
         }
   
-        messageElement.textContent = 'Learn More clicked!';
+        messageElement.textContent = 'know that arachnids differ from insects where arachnids have 8 legs and no wings';
       });
     });
   
