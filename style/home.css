@@ -1,0 +1,162 @@
+.set{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://th.bing.com/th/id/OIP.4ridjI5G95AP3cvPzIHqcgHaFz?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  /* الهيدر */
+  header {
+    background-color: #4a148c;
+    color: white;
+    padding: 30px;
+    border-radius: 0 0 20px 20px;
+  }
+  header h1 {
+    margin: 0;
+  }
+  
+  /* النافبار */
+  nav {
+    background-color: #7b1fa2;
+    padding: 8px;
+   
+    
+    border-radius: 20px;
+  }
+  nav button{
+    background-color: #f9f908;
+    border: none;
+    color: white;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  nav button a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+
+  }
+  nav button:hover {
+    background-color: #35f932;
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .search-box {
+    position: relative;
+    width: 60%;
+    max-width: 500px;
+  }
+  
+  .search-box input {
+    width: 100%;
+    padding: 12px 40px 12px 15px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-box i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  
+  
+  /* الكروت*/
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+  }
+  
+  /* كل عنصر حيوان */
+  .container > div {
+    background-color: white;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .container img {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .container button {
+    margin-top: 10px;
+    background-color: #ffb300;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+  }
+  .container button:hover {
+    background-color: #ffa000;
+  }
+  .audio-container {
+    background-color: #f0f0f0;
+    padding: 15px;
+    text-align: center;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+  }
+
+  audio {
+    width: 80%;
+    max-width: 400px;
+  }
+  /* الفوتر */
+  .footer {
+    background-color: #311b92;
+    color: white;
+    padding: 30px 10px;
+    border-radius: 20px 20px 0 0;
+    margin-top: 40px;
+  }
+  .footer h2 {
+    margin-bottom: 10px;
+  }
+  .footer p {
+    margin-bottom: 20px;
+  }
+  .footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .container > div button a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+
+  }
