@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/contact.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <button type="submit"><a href="./home.html">Home 🏡</a></button>
+        <p>Please fill out the form below to contact us. We will get back to you as soon as possible.</p>
+       
+
+        <form id="contactForm" action="https://formsubmit.co/animalbase111@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html">
+            <input type="hidden" name="_subject" value="New Contact Form Submission">
+            <input type="hidden" name="_template" value="table">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+            
+        </form>
+
+        <div class="contact-info">
+            <h2>Our Contact Information</h2>
+            <p>Phone: 01222157411</p>
+            <p>Phone: 01120100198</p>
+           
+        </div>
+    </div>
+    <div class="social-links" style="text-align: center;">
+        <a href="https://www.instagram.com/animal.base/?igsh=c2E0MnZxZGQ4dTBm#" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        <a href="https://www.nationalgeographic.com/animals" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+        <a href="https://www.facebook.com/groups/animalsworld.dk/?ref=share&mibextid=NSMWBT" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="./script/contact.js"></script>
+</body>
+</html>
